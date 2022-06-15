@@ -1,0 +1,28 @@
+Answer:1 Computers use binary to store data. Not only because it's a reliable way of storing the data, but computers only understand 1s and 0s — binary. A computer's main memory consists of transistors that switch between high and low voltage levels.
+for analog we consider level voltage is 1 and low level voltage is 0.
+
+Answer:2  Integrated Development Environment
+
+Answer:3  A text editor simply allows you to write and edit text and it does not have anything built-in to help you to code whereas a code editor is also a text editor but it also helps you write code.
+
+Answer:4 Step 1: Download Dev/C++ ...
+Step 2: Install Dev/C++ ...
+Step 3: Create First Project. ...
+Step 4: Write Your Program. ...
+Step 5: Save and Compile Code. ...
+Step 6: Run Your Code. ...
+
+Answer 5:  a) C17
+b)    Dennis M Ritchie
+c)System Software:
+System Software is the type of software which is the interface between application software and system. Low level languages are used to write the system software. System Software maintains the system resources and gives the path for application software to run. An important thing is that without system software, system can not run. It is a general purpose software.
+
+Application Software:
+Application Software is the type of software that runs as per user request. It runs on the platform which is provided by system software. High level languages are used to write the application software. Its a specific purpose software.
+
+The main difference between System Software and Application Software is that without system software, system can not run on the other hand without application software, system always runs.
+d)    Write down the number.
+    ->Divide it by 2 and note the remainder.
+    ->Divide the quotient obtained by 2 and note the remainder.
+    ->Repeat the same process till we get 0 as the quotient.
+    ->Write the values of all the remainders starting from the bottom to the top.

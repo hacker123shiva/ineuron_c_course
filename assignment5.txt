@@ -1,0 +1,124 @@
+Solution:1)
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int num1, num2,sum;
+scanf("%d %d",&num1,&num2);
+sum=num1+num2;
+printf("%d",sum);
+getch();
+}
+
+solution:2)
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{float r,area;
+scanf("%f",&r);
+area=22/7*r*r;
+printf("%d",area);
+getch();
+}
+
+solution:3)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{float length, breadth, height, volume;
+scanf("%f %f %f",&length,&breadth,&volume);
+volume=length*breadth*height;
+printf("%d",volume);
+getch();
+}
+
+Solution:4)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float prin ,rate , time , s_i;
+scanf("%f %f %f", &prin, &rate, &time);
+s_i=prin*rate*time;
+printf("%d",s_i);
+getch();
+}
+
+Solution:5)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float length, breadth,area;
+scanf("%f %f",&length, &breadth);
+area=length*breadth;
+printf("area=%f",area);
+getch();
+}
+
+Solution:6)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float num1,num2,num3,ave;
+scanf("%f %f %f",&num1, &num2, &num3);
+ave=(num1+num2+num3)/3;
+printf("average=%f",ave);
+getch();
+}
+
+Solution:7)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float num,sq_num;
+scanf("%f",&num);
+sq_num=num*num;
+printf("Square of number %f =%f",num, sq_num);
+getch();
+}
+
+solution:8)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ char ch;
+ch=getch();
+printf("ASCII code is %d",ch);
+getch();
+}
+
+Solution:9)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int sp, cp;
+float profit;
+scanf("%d %d",&sp,&cp);
+if(sp>=cp)
+{profit=(float)(sp-cp)/cp*100
+printf("%f",profit);}
+else
+printf("No profit");
+getch();
+}
+
+soluion:10)
+
+#include<stdio.h>
+#inlcude<conio.h>
+int main()
+{
+int base ,height ;
+float area;
+scanf("%d %d",&base ,&height);
+area=(float)1/2*base*height;
+printf("%f",area);
+getch();
+}

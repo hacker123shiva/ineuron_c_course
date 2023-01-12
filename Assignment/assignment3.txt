@@ -1,0 +1,34 @@
+Solution:1) Primitive is the most fundamental data type usable in the Programming language.
+A primitive data type is a data type that is built into a programming language.
+
+solution:2)Mostly Declaration statement written outside the function.
+
+Solution:3)Size of float data type is 4 bytes.
+
+Solution:4) Value of uninitialised variable is garbage value.
+
+Solution:5)float take 4 bytes size and double take 8 bytes size. float has 7 decimal precision
+and double has 15 decimal precision.
+
+Solution:6)ASCII: American Standard Code for Information Interchange
+
+Solution:7)A function is executed within a stack frame, whereas a keyword statement isn't necessarily
+
+Solution:8) Modifiers are keywords in C which changes the meaning of basic data type in c. It specifies the amount of memory space to be allocated for a variable. Modifiers are prefixed with basic data types to modify the memory allocated for a variable.
+
+There are two types of type modifiers:
+
+    Size modifiers – short, long
+    Sign modifiers – signed, unsigned
+
+They can be further sub-divided into these four data type modifiers :
+
+    long / long long
+    short
+    signed
+    unsigned
+
+Solution:9)Yes , we can assign chaarcter constant in int variable .e.g int a='a'
+
+Solution:10)No eveyry block of code is not function for examle if  me made block of for loop then 
+it is only a block not a function.

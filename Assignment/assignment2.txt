@@ -1,0 +1,12 @@
+Assignment:2
+
+Solution:1) 4.5 , 3.0 and -0.0 is real constant 
+solution:2)	dynamic , define ,is ,this ,super are not keyword in C Language
+solution:3)The name which not follow rule of identifier are not a valid variable
+solution:4)No
+Solution:5) yes, keywords are defined in the compiler 
+Solution:6)RAM
+solution:7) Dennis Ritchie
+solution:8)1972
+solution:9)UNIX
+solution:10)Low level programming language

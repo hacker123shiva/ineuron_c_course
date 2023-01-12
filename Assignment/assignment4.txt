@@ -1,0 +1,109 @@
+Assignment 4:
+
+Solution:1) 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("Hello Students");
+getch();
+}
+
+Solution:2)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("Hello\nStudents");
+getch();
+}
+
+Solution:3) 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("MySirG");
+
+getch();
+}
+
+Solution:4)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("Teacher's Day");
+getch();
+}
+
+
+
+Solution:5)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("\\n");
+getch();
+}
+
+Solution:6)
+  #include<stdio.h>
+  #include<conio.h>
+int main()
+{
+printf("%cd",'%');
+getch();
+}
+
+Solution:7)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a=4;
+float b=4.4;
+char c='c';
+printf("%d %f %c",a,b,c);
+getch();
+}
+
+
+Solution:8)
+Note: %d and %i behavior is different in scanf
+%d assume base 10 while %i auto detects the base. Therefore, both specifiers behaves differently while they are used with an input specifier.
+So, 012 would be 10 with %i but 12 with %d. 
+
+i)  %i -- 	a decimal integer (detects the base automatically)
+ii) %g --    	It is used to print the decimal floating-point values, and it uses the fixed precision, i.e.,
+ the value after the decimal in input would be exactly the same as the value in the output.
+iii) %lf -- %lf in printf for double 
+
+Solution:9) 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char c='a';
+printf("%c %d",c,c);
+getch();
+}
+
+Solution:10) 
+For converting decimal into binary:
+   i) Write down the number.
+   ii)Divide it by 2 and note the remainder.
+   iii) Divide the quotient obtained by 2 and note the remainder.
+   iv) Repeat the same process till we get 0 as the quotient.
+   v) Write the values of all the remainders starting from the bottom to the top.
+
+
+For converting binary into decimal:
+    i)Write down the binary number.
+    ii) Starting from the left, double your previous total and add the current digit.
+    iii) Double your current total and add the next leftmost digit.
+    iv) Repeat the previous step.
+e.g) 10101
+1+2*0+2*2*1+2*2*2*0+2*2*2*2*1=result
+

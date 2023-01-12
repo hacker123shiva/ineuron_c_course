@@ -1,0 +1,150 @@
+
+
+Solution:1)
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    printf("%lu\n",sizeof(int));
+    printf("%lu\n",sizeof(float));
+ printf("%lu\n",sizeof(char));
+  printf("%lu\n",sizeof(double));
+ getch();
+  
+    return 0;
+}
+
+
+Solution:2)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num;
+    scanf("%d",&num);
+    printf("last digit is %d",num%10);
+    getch();
+    return 0;
+}
+
+
+Solution:3)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num;
+    printf("Enter three digit number");
+    scanf("%d",&num);
+    if(num>=100 && num<=999)
+    printf("first digit is %d",num/100);
+    else
+    printf("You are not enter valid number");
+    getch();
+}
+
+
+Solution:4)
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+    
+int num,mid_num;
+printf("Enter three digits number");
+scanf("%d",&num);
+
+    // Find total number of digits
+    int digits = (int)log10(num) + 1;
+ 
+    // Find middle digit
+    mid_num = (int)(num / pow(10, digits / 2))% 10;
+ 
+    // print middle number
+    printf("middle number is %d",mid_num);
+    return 0;
+
+}
+
+Solution:5)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num1, num2, temp;
+    scanf("%d %d",&num1, &num2);
+    temp=num1;
+    num1=num2;
+    num2=temp;
+    printf("num1=%d num2=%d",num1,num2);
+    getch();
+}
+
+Solution:6)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num1, num2;
+    scanf("%d %d",&num1,&num2);
+    num1=num1+num2;
+    num2=num1-num2;
+    num1=num1-num2;
+    printf("num1=%d num2=%d",num1,num2);
+    getch();
+}
+ 
+Solution:7)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num,new_num;
+    scanf("%d",&num);
+    new_num=num/10*10;
+    printf("Convert %d into %d ",num , new_num);
+    getch();
+}
+ 
+Solution:8)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num,new_num,dig;
+    scanf("%d %d",&num,&dig);
+    new_num=num*10+dig;
+    printf("convert %d into %d",num,new_num);
+    getch();
+    
+}
+ 
+Solution:9)
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    float INR, USD;
+    scanf("%f",&INR);
+    USD=INR/76.23;
+    printf("USD =%f",USD);
+    getch();
+}
+
+Solution:10)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num,new_num=0;
+    printf("Enter three digit number");
+    scanf("%d",&num);
+    while(num)
+    {new_num=new_num*10+num%10;
+    num=num/10;
+    }
+    printf("%d",new_num);
+    getch();
+}
